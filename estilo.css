@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #9B9B9B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #00796B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin: 15px;
+}
+
+header .menu {
+    margin-right: 30px;
+}
+
+header .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer {
+    background-color: #C4C4C4;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    color: #ffffff;
+}
+/* INDEX */
+
+/* SOBRE */
+
+section.sobre img {
+    margin: 30px;
+    max-width: 100%;
+}
+
+section.video {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+section.texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.texto article {
+    max-width: 100%;
+}
+
+/* SERVIÇOS */
+
+@media (min-width: 700px) {
+    .conteudo {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.titulo {
+    color: #009688;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding-left: 0;
+}
+
+.subtitulo {
+    color: #009688;
+    text-transform: uppercase;
+}
+
+.centralizartxt {
+    text-align: center;
+}
+
+.textoinicio {
+    text-align: left;
+}
+
+.padding {
+    padding: 0 2em;
+}
+
+.responsiveimg {
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkcontato {
+    color: #009688;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.itemlista {
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+/* teste form */
+
+article.contact {
+    padding: 50px 0;
+}
+
+article.contact h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #888888;
+}
+
+article.contact form {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+article.contact form input,
+article.contact form textarea {
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    resize: none;
+}
+
+article.contact form button {
+    padding: 10px 20px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    width: 150px;
+    height: 35px;
+}
+
+.teste {
+    display: flex;
+    max-width: 50%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reverso {
+    flex-direction: row-reverse;
+}
+
+.principal {
+    width: 50%;
+    max-width: 100%;
+}
+
+.limitadorcoluna {
+    width: 900px;
+    margin: auto;
+}
